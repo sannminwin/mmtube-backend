@@ -1,24 +1,23 @@
 {
-  "name": "cloud-cardboard-viewer",
-  "description": "Angular2 and Node.js Cardboard video viewer.",
+  "name": "Youtube Myanmar",
+  "description": "Youtube Myanmar enable functionality to be able to search youtube movies using Burmese language.",
   "version": "0.1.0",
   "private": true,
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "Sann Min Win",
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/cloud-cardboard-viewer.git"
+    "url": "https://github.com/sannminwin/mmtube-backend"
   },
-  "contributors": [
-    "Jason Dobry <jason.dobry@gmail.com>"
-  ],
   "dependencies": {
-    "@google-cloud/debug-agent": "0.10.2",
-    "@google/cloud-errors": "0.1.1",
-    "@google/cloud-trace": "0.6.2",
-    "body-parser": "1.16.1",
-    "express": "4.14.1",
-    "googleapis": "16.1.0"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "google-translate": "^2.2.0",
+    "googleapis": "16.1.0",
+    "languagedetect": "^1.1.1",
+    "myanmar-tools": "^1.0.3",
+    "rabbit-node": "^1.0.4"
   },
   "engines": {
     "node": "~6"
